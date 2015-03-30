@@ -1,0 +1,18 @@
+name: gitignore
+version: 1.0.5
+description: "Generator for `.gitignore`."
+author:
+  name: Chris Tate
+  email: "chris@studiotate.com"
+copyright: 2014 Studio Tate
+gen:
+  file:
+    gitignore:
+      dest: .gitignore
+  spec:
+    items:
+      key: item
+      type: array
+generators:
+  project:
+    version: latest
