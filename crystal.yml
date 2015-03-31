@@ -1,5 +1,5 @@
 name: gitignore
-version: 1.0.5
+version: 0.1.0
 description: "Generator for `.gitignore`."
 author:
   name: Chris Tate
