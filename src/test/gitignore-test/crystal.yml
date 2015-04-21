@@ -1,0 +1,10 @@
+name: gitignore-test
+version: 0.1.0
+
+generators:
+  gitignore:
+    path: .
+    spec:
+      items:
+        - lib/
+    version: latest

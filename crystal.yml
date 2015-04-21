@@ -6,13 +6,16 @@ author:
   email: "chris@studiotate.com"
 copyright: 2014 Studio Tate
 gen:
-  file:
-    gitignore:
-      dest: .gitignore
-  spec:
+  gitignore:
+    dest: .gitignore
+schema:
+  type: object
+  additionalProperties: false
+  properties:
     items:
-      key: item
       type: array
+      items:
+        type: string
 generators:
   project:
     version: latest
