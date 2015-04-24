@@ -6,8 +6,9 @@ author:
   email: "chris@studiotate.com"
 copyright: 2014 Studio Tate
 gen:
-  gitignore:
-    dest: .gitignore
+  file:
+    gitignore:
+      dest: .gitignore
 schema:
   type: object
   additionalProperties: false
